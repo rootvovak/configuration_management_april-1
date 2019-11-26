@@ -7,7 +7,7 @@
     - name: DESTINATION
       prompt: "Give me the location to put: "
       private: no
-  hosts: localhost
+  hosts: all
   become: yes
   become_method: sudo
   tasks:
